@@ -1,0 +1,24 @@
+.blockTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blockTitle h2{
+    font-weight: 400;
+   font-stretch: normal;
+   font-size: 30px;
+   line-height: 1.2;
+   font-family: "Josefin Sans", sans-serif;
+   letter-spacing: 5px;
+   margin-block-start: -0.17em;
+   margin-block-end: 0.3em;
+}
+
+
+   .line{
+    height: 2px;
+    width: 100px;
+    background-color: #f55cdb;
+
+}

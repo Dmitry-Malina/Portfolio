@@ -1,0 +1,19 @@
+.header{
+    height: 60px;
+    display:flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.header :hover{
+    background-color:#f55cdb;
+    transition: 2000ms;
+}
+.container{
+    width: 93%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: -1;
+}

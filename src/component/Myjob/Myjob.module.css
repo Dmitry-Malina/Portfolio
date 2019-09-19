@@ -1,0 +1,60 @@
+.myjob{
+    height: 100vh;
+    background-color: #1f1f20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.project {
+   margin: 1%;
+}
+
+.conteiner{
+    width: 80%;
+    display:flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 40px; 
+    
+}
+.project{
+    display: flex;
+    height: 15%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center
+
+}
+
+.jobs{
+    display: flex;
+    height: 90%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+@media screen and (max-width: 550px ) {
+    .jobs{
+flex-direction: column;
+height: 100%;
+justify-content: center;
+    }
+    .jobs_1{
+        height: 100%;
+        width: 100%;
+    }
+    .jobs_2{
+        height: 100%;
+        width: 100%;
+    }
+    .conteiner{
+        height: 100%;
+    }
+}
